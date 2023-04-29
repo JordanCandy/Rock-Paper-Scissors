@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital@0;1&display=swap');
+
+body{
+    background-color: #C0DBEA;
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: 100;
+}
+
+.btn{
+    padding: 10%;
+    border: 1px solid #A77979;
+    border-radius: 3%;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(50, 50, 50);
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.myClick{
+    font-size: 2rem;
+    color:#BA90C6;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    font-size: 2rem;
+}
+
+.one{
+    background-color: #E8A0BF;
+}
+
+.three{
+    background-color: #FDF4F5;
+}
+
+.two{
+    background-color: #BA90C6;
+}
