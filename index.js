@@ -4,9 +4,13 @@ for (let i = 0; i < buttons.length; i++) {
   const button = buttons[i];
 
   button.addEventListener('click', function(gameSelection) {
-    const selector = document.querySelector("h1");
+    //h1 selector
+    const selector = document.querySelector(".heading1");
+    //h1 click class
     selector.classList.add("myClick");
+    //playerChoice
     var choice = button.textContent;
+    //gameChoice
     gameSelection = gameChoice();
 
     if(choice === "Rock"){
@@ -46,6 +50,7 @@ for (let i = 0; i < buttons.length; i++) {
   });
 }
 
+//game choice function
 function gameChoice(){
     var randomNumber = number();
     if(randomNumber === 1){
@@ -57,9 +62,16 @@ function gameChoice(){
     }
 }
 
-//helper function
-//Random Number Generator
+//reset button
+const resetBtn = document.querySelector(".reset");
 
+resetBtn.addEventListener("click", function(){
+   location.reload();
+});
+
+//helper function
+
+//Random Number Generator
 var number = () =>{
     var Mynum = Number(Math.round(1 + Math.random() * 2));
     return Mynum;

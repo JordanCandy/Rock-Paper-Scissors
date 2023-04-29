@@ -12,31 +12,50 @@ body{
     border-radius: 3%;
     font-size: 1.5rem;
     text-align: center;
-    color: rgb(50, 50, 50);
+    color: #323232;
+}
+
+.clear{
+    margin-top: 3%;
+    position: absolute;
+    right: 39%;
+    width: 25%;
 }
 
 .container{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 8%;
-}
-
-.myClick{
-    font-size: 2rem;
-    color:#BA90C6;
+    margin-top: 5%;
 }
 
 .header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3%;
+    margin-top: -3%;
     font-size: 2rem;
+    color:#BA90C6;
+}
+
+.myClick{
+    font-size: 2rem;
+    margin-top: 5%;
 }
 
 .one{
     background-color: #E8A0BF;
+}
+
+.reset{
+    width: 100%;
+    text-align: center;
+    background-color: #BA90C6;
+    color: #323232;
+    padding: 2% 0 2% 0;
+    border: solid 1px #A77979;
+    font-size: 1.3rem;
+    border-radius: 2%;
 }
 
 .three{
