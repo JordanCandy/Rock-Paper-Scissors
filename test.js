@@ -96,6 +96,4 @@ function playGame(gameSelection, choice){
     }
 }
 
-
-
 levels();
