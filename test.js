@@ -1,3 +1,6 @@
+var score = 0;
+var compScore= 0;
+
 const buttons = document.querySelectorAll('button');
 
 for (let i = 0; i < buttons.length; i++) {
@@ -30,8 +33,6 @@ resetBtn.addEventListener("click", function(){
 
 //levels
 function levels(points){
-    var score = 0;
-    var compScore= 0;
 
     if(points === "Win"){
         score+=1;
@@ -65,10 +66,6 @@ var number = () =>{
 function playGame(gameSelection, choice){
   var log = "";
 
-  //player score
-    var score = 0;
-    //computer score
-    var compScore = 0;
     //h1 selector
     const selector = document.querySelector(".heading1");
     const selector2 = document.querySelector(".heading2");
@@ -98,3 +95,7 @@ function playGame(gameSelection, choice){
     selector2.textContent = " Player score: " + score + " " + "Game score: " +compScore;
     }
 }
+
+
+
+levels();
